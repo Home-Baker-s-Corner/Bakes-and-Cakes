@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="bakes.css">
+    <title>Home Bakers Corner</title>
+    <link rel="icon" href="images/icon.jpg" />
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <!-- <a class="active" href="#home">home</a> -->
+            <a href="#home">Home</a>
+            <a href="#about">About </a>
+            <a href="#cookiesproduct">Confectioneries</a>
+            <img src="img/9.png" id="logos" alt="No Logo">
+            <a href="#review">Review's</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#livesection">#Let's Bake!</a>
+        </nav>
+
+    </header>
+
+
+    <!-- <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Home Bakers Corner</a>
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">about</a>
+            <a href="#products">my confectioneries</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#livesection">#Let's Bake!</a>
+        </nav>
+    </header> -->
+
+    <main>
+        <section id="home">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext"></div> -->
+                    <img src="img/1.jpg" width="250%">
+                    <!-- <div class="text">Caption Text</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext"></div> -->
+                    <img src="img/34.jfif" style="width:250%">
+                    <!-- <div class="text">Caption Two</div> -->
+                </div>
+
+                <div class="mySlides fade">
+                    <!-- <div class="numbertext"></div> -->
+                    <img src="img/i.jpg" style="width:250%">
+                    <!-- <div class="text">Caption Three</div> -->
+                </div>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="wrapper-about">
+                <div class="background-container-about">
+                    <div class="bg-1"></div>
+                    <div class="bg-2"></div>
+                </div>
+                <div class="about-container">
+
+                    <!-- <div class="image-container">
+                        <img src="img/4.jpg" alt="">
+                    </div> -->
+                    <div class="text-container">
+                        <h1>ABOUT</h1>
+                        <br />
+                        <p>Get new varieties of Birthday Cake, Wedding Cake, Cookies and brownies at Townes Cakes &
+                            Bakes.the best home baker in Trivandrum.Townes Cakes & Bakes regularly introduces new cakes.
+                            So, if you are looking for the best birthday cakes in Trivandrum, Townes Cakes & Bakes will
+                            be a perfect choice. The cakes, cookies and brownies at Townes Cakes & Bakes, Trivandrum,
+                            are new and the best in the city.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="products">     -->
+        <section id="cakes"> Cakes </section>
+
+        <section class="cookiesp" id="cookiesproduct">
+            <h1 class="heading"> <span>confectioneries </span></h1>
+            <!---------------------------------------------------------cookies section------------------>
+
+
+
+
+
+            <div class="container grid grid--3-cols margin-bottom-md">
+
+                <div class="item">
+
+                    <img src="images/buttercookies.jpg" class="item-img" alt="buttercookies" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Butter Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <!------<span>Vanilla wafers, bananas, butter, all purpose flour, egg, salt, sugar, vanilla,
+                                     milk powder, baking soda, brown sugar, white chocolate chips</span>---->
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/chocolatechip.jpg" class="item-img" alt="chocolatechip" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Chocolatechip </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>Chocolatechip</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <img src="images/cookiesman.jpg" class="item-img" alt=" cookiesman" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Cookie Man</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/creamcookies.jpg" class="item-img" alt="creamcookies" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Cream Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="item">
+
+                    <img src="images/macarones.jpg" class="item-img" alt="macraones" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Macarones</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button class="button" onclick="togglePopup()" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/Datecookies.jpg" class="item-img" alt="cookiesman" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <!-- <span class="tag tag--vegetarian">Veg</span> -->
+                        </div>
+                        <p class="meal-title">Dates Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button class="button" onclick="togglePopup()" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <section class="review" id="review">
+
+            <h1 class="heading"> customers <span>review</span> </h1>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="images/third.jpg" alt="">
+                    <h3>arjun</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The food is excellent, generous portions and great prices. The service was fast and friendly. I
+                        highly recommended it if you’re in the Wellfleet area.</p>
+                </div>
+                <div class="box">
+                    <img src="images/second.png" alt="">
+                    <h3>rithika</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying
+                        food from here. The best pizza ever.</p>
+                </div>
+                <div class="box">
+                    <img src="images/third.jpg" alt="">
+                    <h3>subin</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Has great pizza, the best! I am picky about my pizza. Their pies are huge, not two much sauce and
+                        a great mixture of cheeses.</p>
+                </div>
+                <div class="box">
+                    <img src="images/second.png" alt="">
+                    <h3>athisree</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>The most amazing food ever! And also the staff is so nice to everyone. I highly recommend buying
+                        food from here. The best pizza ever.</p>
+                </div>
+                <div class="box">
+                    <img src="images/third.jpg" alt="">
+                    <h3>sarath</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Has great pizza, the best! I am picky about my pizza. Their pies are huge, not two much sauce and
+                        a great mixture of cheeses.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- review section ends -->
+        <br><br><br><br>
+        <section class="contact" id="contact">
+            <h1 class="heading"> contact <span>info</span> </h1>
+            <br>
+            <div class="contact-wrap">
+                <div class="contact-in">
+                    <br>
+                    <br><br><br><br><br><br>
+                    <br />
+                    <br />
+                    <br />
+                    <h2><i class="fa fa-phone" aria-hidden="true"></i> Phone</h2>
+                    <p>+91-9876456745</p>
+                    <h2><i class="fa fa-envelope" aria-hidden="true"></i> Email</h2>
+                    <p>bakesandcakes@gmail.com</p>
+                    <h2><i class="fa fa-map-marker" aria-hidden="true"></i> Address</h2>
+                    <p>Street No : 345 Near Thampanoor, Kerala</p>
+                </div>
+                <div class="contact-in">
+                    <h1>Send a Message</h1>
+                    <form action="" method="" class="form">
+                        <div class="input-group">
+                            <input type="text" name="first_name" id="first-name" placeholder="First name">
+                            <label for="first-name">First name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" name="last_name" id="last-name" placeholder="Last Name">
+                            <label for="last-name">Last name</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="email" name="e-mail" id="e-mail" placeholder="e-mail">
+                            <label for="e-mail">E-mail</label>
+                        </div>
+
+                        <div class="textarea-group">
+                            <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+
+                        <div class="button-div">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- live section starts -->
+
+        <section class="livesection" id="livesection">
+            <h1 class="heading"> <span>Lets bake </span>with me </h1>
+            <div class="row">
+
+                <div class="image">
+                    <img src="images/live.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="quotes">
+                        <q><cite>You don’t have to cook fancy or complicated masterpieces, just good
+                                food from fresh ingredients.</cite></q>
+                        <p><br><b>You get to bake along with me</b> </p>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Your Name" required="required">
+                        <input type="email" placeholder="Email ID" required="required">
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="number" placeholder="Phone Number" required="required">
+                        <input type="text" placeholder="Food Name" required="required">
+                    </div>
+
+                    <button type="submit" class="btn" data-modal-target="#learn" disabled>Grab Your Seat!</button>
+                    <!-- 
+                    <div class="popup" id="popup">
+                        <img src="images/tick.png" alt="">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been succesfully submitted and will inform about the section. Thanks!</p>
+                        <button type="button" data-close-button class="close-button">OK</button>
+                    </div> -->
+
+                    <div class="learn" id="learn">
+                        <div class="learn-header">
+                            <div class="title"><img src="images/tick.png" alt=""></div>
+                        </div>
+                        <div class="learn-body">
+                            Your details has been succesfully submitted. Your session details will be conveyed soon.
+                            Thanks!
+                            <div><button data-close-button class="close-button">OK</button></div>
+                        </div>
+                    </div>
+                    <div id="overlay"></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- live section ends -->
+
+        <footer>
+            <a href="https://www.facebook.com/login/" target="_blank"><img class="social-media-img"
+                    src="img/facebook.JPG" alt="Facebook"></a>
+            <a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="social-media-img"
+                    src="img/instagram.JPG" alt="Instagram"></a>
+
+            <a href="#" class="logo"><i class="fas fa-utensils"></i></a>
+
+            <a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome" target="_blank"><img
+                    class="social-media-img" src="img/snapchat.JPG" alt="snapchat"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img class="social-media-img" src="img/youtube.JPG"
+                    alt="YouTube"></a>
+        </footer>
+    </main>
+
+    <script src="bakes.js"></script>
+</body>
+
+</html>
