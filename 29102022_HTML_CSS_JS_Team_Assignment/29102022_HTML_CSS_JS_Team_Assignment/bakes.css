@@ -1,0 +1,349 @@
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+:root{
+    --green:#FA2424;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+} 
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: #fff;
+    padding:1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo{
+    color:var(--black);
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:var(--green);
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:#fff;
+    background: var(--green);
+}
+
+header .icons i,
+header .icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:4.5rem;
+    line-height: 4.5rem;
+    width:4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color:var(--black);
+    border-radius: 50%;
+    background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover{
+    color:#fff;
+    background: var(--green);
+    transform: rotate(360deg);
+}
+
+header .icons #menu-bars{
+    display: none;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.sub-heading{
+    text-align: center;
+    color:var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.review .slide{
+    padding:2rem;
+    box-shadow:var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    position: relative;    
+}
+
+.review .slide .fa-quote-right{
+    position: absolute;
+    top:2rem; right:2rem;
+    font-size: 6rem;
+    color:#ccc;
+}
+
+.review .slide .user{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color:var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+    font-size: 1.3rem;
+    color:var(--green);
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color:var(--light-color);
+}
+
+
+/**************************************************************************
+.cookies{
+     min-height: 100vh;
+     display:flex;
+     align-items:center;
+     background-image:url("images/backgroundcookies.jpg");
+     padding: 0px;;
+     background-size: cover;
+     background-position: center center;
+
+
+}
+
+
+.cookies .cookies-content{
+      width: 50%;
+      float: left;
+      text-align: center;
+      margin-bottom: 2rem;
+      line-height: 7rem;
+      padding: 4rem;
+      text-shadow: var(--box-shadow);
+
+}
+
+.cookies .cookies-content h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: var(--black);
+    text-align: center;
+
+}
+
+.cookies .cookies-content p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+
+}
+*/
+
+/****************************************************************88888*/ 
+
+
+
+
+  /**********************************COOKIES sECTION STARTS HERE********************** fghj  */
+
+  .section-meals {
+    padding: 9.6rem 0;
+    
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .item {
+    
+    width: 20px;
+    /*flex-wrap: wrap;*/
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    flex: 1 1 25rem;
+    
+  }
+  
+  .item:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .item-content {
+    padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  }
+  
+  .meal-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #333;
+    border-radius: 100px;
+    font-weight: 600;
+  }
+  
+  .tag--vegetarian {
+    background-color: #51cf66;
+  }
+  .tag--vegan {
+    background-color: #94d82d;
+  }
+  .tag--paleo {
+    background-color: #ffd43b;
+  }
+  
+  .meal-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+  }
+  
+  .meal-attributes {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .meal-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    color: #e67e22;
+  }
+  
+  .item img {
+    height: 250px;
+    width: 350px;
+  }
+  
+  .all-recipes {
+    text-align: center;
+    font-size: 1.8rem;
+
+  }
+ 
+  /*
+    .cookiescorner h1{
+
+        text-align: left;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin-left: 2cm;
+        margin-bottom: 0.5cm;
+        margin-top: 3cm;
+       
+       
+
+
+    }
+
+    .cookiescontent p{
+
+      text-align: left;
+      margin-left: 2cm;
+      height:5cm;
+      font-size: 18px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      
+
+    }*/
+
+    .button {
+        display: inline-block;
+        padding: 15px 35px;
+        font-size: 12.5px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+      }
+      
+      .button:hover {background-color: #3e8e41}
+      
+      .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+   
+      

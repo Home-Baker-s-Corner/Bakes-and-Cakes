@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Home Bakers Corner</title>
+    <link rel="icon" href="images/icon.jpg" />
+    <link rel="stylesheet" href="bakes.css">
+</head>
+
+<body>
+
+
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Home Bakers Corner</a>
+        <nav class="navbar">
+
+            <a href="#about">about</a>
+            <!------------------<a href="#products">Our Menu</a>  ------->
+            <a href="#products">Our Menu</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#livesection">Let's Bake!</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about"></section>
+
+        <section id="cakes"> Cakes  </section>
+        
+        <section class="cookiesp" id="cookiesproduct">
+<!---------------------------------------------------------cookies section------------------>
+          
+             
+
+            
+
+            <div class="container grid grid--3-cols margin-bottom-md">
+
+                <div class="item">
+
+                    <img src="images/buttercookies.jpg" class="item-img" alt="buttercookies" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Butter Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <!------<span>Vanilla wafers, bananas, butter, all purpose flour, egg, salt, sugar, vanilla,
+                                     milk powder, baking soda, brown sugar, white chocolate chips</span>---->
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button  onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                                
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/chocolatechip.jpg" class="item-img" alt="chocolatechip" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Chocolatechip </p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span>Chocolatechip</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button  onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                            
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <img src="images/cookiesman.jpg" class="item-img" alt=" cookiesman" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Cookie Man</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button  onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/creamcookies.jpg" class="item-img" alt="creamcookies" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Cream Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button  onclick="togglePopup()" class="button" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="item">
+
+                    <img src="images/macarones.jpg" class="item-img" alt="macraones" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Macarones</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button class="button"  onclick="togglePopup()" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="item">
+
+                    <img src="images/Datecookies.jpg" class="item-img" alt="cookiesman" />
+
+                    <div class="item-content">
+                        <div class="meal-tags">
+                            <span class="tag tag--vegetarian">Veg</span>
+                        </div>
+                        <p class="meal-title">Dates Cookies</p>
+                        <ul class="meal-attributes">
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                                <span><strong>650</strong> calories</span>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="restaurant-outline"></ion-icon>
+                                <button class="button" id="cookiebutton">Order Now</button>
+                            </li>
+                            <li class="meal-attribute">
+                                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                                <span><strong>4.9</strong> rating (537)</span>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
+
+
+                
+
+            </div>
+
+
+
+
+        </section>
+
+
+        <section id="brownies"></section>
+
+        </button>
+        </div>
+
+
+
+
+        <section class="review" id="review">
+            <h3 class="sub-heading"> Customer's Review </h3>
+            <h1 class="heading"> WHAT THEY SAY </h1>
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <!-- <img src="images/pic-1.jpg" alt=""> -->
+                            <div class="user-info">
+                                <h3>Sarath</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>The food is excellent, generous portions and great prices. The service was fast and friendly.
+                            I highly recommended it if you’re in the Wellfleet area.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <!-- <img src="images/pic-2.jpg" alt=""> -->
+                            <div class="user-info">
+                                <h3>Rithika</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>The most amazing food ever! And also the staff is so nice to everyone. I highly recommend
+                            buying food from here. The best pizza ever.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <!-- <img src="images/pic-3.jpg" alt=""> -->
+                            <div class="user-info">
+                                <h3>Arjun</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Has great pizza, the best! I am picky about my pizza. Their pies are huge, not two much sauce
+                            and a great mixture of cheeses.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="contact"></section>
+        <section id="livesection"></section>
+    </main>
+
+    <script src="bakes.js"></script>
+</body>
+
+</html>
